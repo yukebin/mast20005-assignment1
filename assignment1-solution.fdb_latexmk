@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1724185886.86769 "/Users/kevin/Library/CloudStorage/OneDrive-TheUniversityofMelbourne/unimelb/year2/sem2/MAST20005/assignments/assignment1/assignment1-solution.tex" "assignment1-solution.pdf" "assignment1-solution" 1724185887.67601 0
-  "/Users/kevin/Library/CloudStorage/OneDrive-TheUniversityofMelbourne/unimelb/year2/sem2/MAST20005/assignments/assignment1/assignment1-solution.tex" 1724185886.65601 12459 d096daf92a1cc954bcb9e2b04068d147 ""
+["pdflatex"] 1724186782.47178 "/Users/kevin/Library/CloudStorage/OneDrive-TheUniversityofMelbourne/unimelb/year2/sem2/MAST20005/assignments/assignment1/assignment1-solution.tex" "assignment1-solution.pdf" "assignment1-solution" 1724186783.26071 0
+  "/Users/kevin/Library/CloudStorage/OneDrive-TheUniversityofMelbourne/unimelb/year2/sem2/MAST20005/assignments/assignment1/assignment1-solution.tex" 1724186782.2073 12459 387195b326e3d3823a81b3922f667e30 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -83,8 +83,8 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1712057026.96084 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1712056905 8221439 5141edc81c8fb28c310e838f96f5b9f5 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "assignment1-solution.aux" 1724185887.60726 1345 ddf3f4996898a0ddd78e87f86876c4d3 "pdflatex"
-  "assignment1-solution.tex" 1724185886.65601 12459 d096daf92a1cc954bcb9e2b04068d147 ""
+  "assignment1-solution.aux" 1724186783.1907 1345 ddf3f4996898a0ddd78e87f86876c4d3 "pdflatex"
+  "assignment1-solution.tex" 1724186782.2073 12459 387195b326e3d3823a81b3922f667e30 ""
   "images/boxplot.jpg" 1724165843 125995 3ea661664f778a55a273bb3f82473c1a ""
   "images/motorcycle-rider-deaths.jpg" 1724178378.51913 87784 b897b5d433ddd537e3bff56102cdac2e ""
   "images/skewed_hist.png" 1724176017.78882 91805 00eb9a101a860c3d37a8781262094510 ""

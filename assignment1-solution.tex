@@ -75,7 +75,7 @@ $$
 \begin{aligned}
 L(\sqrt{ p }) &= \prod_{i=1}^{m} \binom{n}{x_{i}} (\sqrt{ p })^{x_{i}}(1-\sqrt{ p })^{n-x_{i}} \\
 &= \prod_{i=1}^m \left[ \binom{n}{x_{i}}\right] (\sqrt{ p })^{\sum x_{i}}(1-\sqrt{ p })^{\sum (n-x_{i})} \\
-\implies \ln{L(\sqrt{ p })} &= \ln{\prod_{i=1}^m \left[ \binom{n}{x_{i}}\right]} + \sum_{i=1}^m{(x)}\ln{\sqrt{ p }}+\sum_{i=1}^m{(n-x_{i})}\ln{(1-\sqrt{p})} \\
+\implies \ln{L(\sqrt{ p })} &= \ln{\prod_{i=1}^m \left[ \binom{n}{x_{i}}\right]} + \sum_{i=1}^m{(x_i)}\ln{\sqrt{ p }}+\sum_{i=1}^m{(n-x_{i})}\ln{(1-\sqrt{p})} \\
 \implies \frac{d}{d\sqrt{ p }}[\ln{L(\sqrt{ p })})] &= \frac{\sum x_{i} \cdot \frac{1}{2} p^{1/2}}{\sqrt{ p }} + \frac{\left( mn - \sum x_{i} \right) \cdot -\frac{1}{2} p^{1/2}}{1 - \sqrt{ p }} \\
 &= \frac{(1-\sqrt{ p })p^{-1/2} \sum x_{i} - mn + \sum x_{i}}{2\sqrt{ p } (1-\sqrt{ p })}
 \end{aligned}
@@ -155,8 +155,6 @@ For Sample 2, the first and third quartile ``position'' is the same as Sample 1.
 
 Finally, the median of Sample 1 is $y_{(5)} = 1.529$ and the median of Sample 2 is $z_{(5)} = 1.333$. \\
 
-
-
 Ultimately, the range and IQR of Sample 1 are greater than those of Sample 2. This suggests that Sample 1 has a greater variability, while Sample 2 has the same value for the first, second (medium) and third quartiles, indicating that the data is more concentrated around a single value. $\blacksquare$
 
 \begin{figure}[h!]
@@ -198,7 +196,7 @@ Given $T_4 = aT_1 + (1 - a)T_2$, the MSE of $T_4$ is defined as $ \operatorname{
 We find the bias of $T_4$ first. Since $T_1$ and $T_2$ are unbiased estimators of $\mu$, we have
 
 $$
-\mathbb{E}[T_4] = \mathbb{E}[aT_1 + (1-a)T_2] = a\mathbb{E}[T_1] + (1-a)\mathbb{E}[T_2] = a\mu + (1-a)\mu = \mu
+\mathbb{E}(T_4) = \mathbb{E}[aT_1 + (1-a)T_2] = a\mathbb{E}(T_1) + (1-a)\mathbb{E}(T_2) = a\mu + (1-a)\mu = \mu
 $$
 
 so
